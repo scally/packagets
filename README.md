@@ -20,4 +20,4 @@ That's it!
 
 Install
 
-`bun add @scally/packagets`
+`bun add github:scally/packagets`
