@@ -8,6 +8,22 @@ An alternative format for `package.json` files.
 
 That's it!
 
+## What Does It Look Like
+
+```typescript
+export default {
+  scripts: {
+    packagets: 'bun index.ts',
+  },
+  devDependencies: {
+    '@types/bun': 'latest',
+  },
+  peerDependencies: {
+    typescript: '^5.0.0',
+  }
+}
+```
+
 ## But Why, Though
 
 * some out of the box defaults
